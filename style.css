@@ -1,0 +1,169 @@
+*, *::before, *:: after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header {
+	margin: 16px 16px 0 16px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerlogo {
+	width: 32px;
+}
+
+.headerlogo img {
+	width: 100%;
+}
+
+#hamburguesa {   
+	width: 24px;
+}
+#hamburguesa img {
+	width:100%;
+}
+/*
+nav{
+    display:flex;
+}        
+*/
+
+body {
+	font-family: 'Montserrat';
+	font-size: 16px;
+}
+
+/******* Main *******/
+main {
+	margin: 80px 32px 0 32px;
+}
+h1 {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 39px;
+	color: #202020;
+	text-align: left;
+    margin-bottom: auto
+}
+p {
+	margin-top: 8px;
+	font-size: 16px;
+	line-height: 170.66%;
+	color: #4F4F4F;
+}
+
+.botones {
+	margin-top: 42px;
+}
+
+button {
+    font-family: 'Montserrat';
+	font-size: 16px;
+    font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FFFFFF;
+	border: solid 4px;
+	border-radius: 10px;
+	width: 90%;
+	height: 42px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#rosita {
+    background-color: #F4A6B8;
+	border-color: #F4A6B8;
+}
+#celeste {
+	border-color: #65C7EE;
+	background-color: #65C7EE;
+}
+
+ul {
+	display: none
+}
+/******* Tablet *******/
+@media screen and (min-width: 640px) {
+.headerlogo {
+	width: 48px;
+    }
+ul {
+	display: contents;
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    justify-content: space-between;
+	align-items: center;
+}
+li {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #202020;
+    margin-left:1%   
+    }
+#boton-header {
+    color: #FFFFFF;
+	border: solid 4px;
+	border-radius: 5px;
+    background-color: #F4A6B8;
+	border-color: #F4A6B8;
+    
+    }
+#hamburguesa {   
+	display:none;
+    }
+#hamburguesa img {
+    display:none;
+    }
+main {
+	margin: 10% 128px 0 128px;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 71px;
+    margin-bottom:3%
+    }
+.botones {
+	margin-top: 42px;
+    margin-left: 15%;  
+    }
+button {
+	font-size: 24px;
+	border: solid 1px;
+	border-radius: 10px;
+	width: 33%;
+	height: 60px;
+	margin-left: 1.5%;
+	margin-bottom: 20px;
+    display: table-row;
+}
+p {
+    font-size: 32px;
+    line-height: 55px;
+}
+
+}
+/******* Desktop *******/
+@media screen and (min-width: 1281px) {
+ main {
+	margin: 15% 128px 0 128px;   
+}
+.botones {
+	margin-top: 9%;
+    margin-left: 15%;  
+    }
+h1 {
+    margin-bottom: 3%    
+    }
+}
+
+
+    
